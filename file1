@@ -14,3 +14,15 @@ Fundamental concepts
 4.	Identifiers
 5.	Variables
 6.	Multiple assignment
+Identifiers --- Naming rule in python
+1.	lower case / upper case # (upper case considered as constant for conveying purpose only. So, lower case will be recommended).
+2.	Case sensitive
+3.	Allow digits (0-9)
+4.	Identifier name shouldn’t start with digit
+5.	Allows underscore (emp_id)
+6.	If an identifier starts with underscore, then it is private
+o	X    ------> Normal variable
+o	_X  ------> Protected variable
+o	__X -----> Private variable
+o	__X__ --> Magic variable
+7.	No key word / reserved word can be used as identifier
